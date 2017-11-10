@@ -6,11 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Color Blocks</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="jquery-3.2.1.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
-    <div class="red-block"></div>
-    <div class="blue-block"></div>
-    <div class="green-block"></div>
-    <div class="yellow-block"></div>
+    <div id="counterDiv">
+        <p id="redCounter">Red Count: 0</p>
+        <p id="yellowCounter">Yellow Count: 0</p>
+        <p id="blueCounter">Blue Count: 0</p>
+        <p id="greenCounter">Green Count: 0</p>        
+    </div>
+    <div id="buttonDiv">
+        <input type="text" id="redInput" />
+        <button id="redButton">Red Button</button>
+        <input type="text" id="yellowInput" />        
+        <button id="yellowButton">Yellow Button</button>
+        <input type="text" id="blueInput" />
+        <button id="blueButton">Blue Button</button>
+        <input type="text" id="greenInput" />
+        <button id="greenButton">Green Button</button>
+    </div>
+    <div id="blockDiv">
+    </div>
 </body>
 </html>
